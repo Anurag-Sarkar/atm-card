@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(179, 179, 179);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 20);
+}
+#card{
+    box-shadow: 0px 0px 100px black;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 680px;
+    height: 420px;
+    background-color: rgba(116, 116, 116, 0.39);
+    border-radius: 30px;
+    backdrop-filter: blur(40px);
+    border-top: 1px solid rgba(255, 255, 255, 0.314);
+    border-left: 1px solid rgba(255, 255, 255, 0.314);
+    
+}
+#circle1{
+    top: 7%;
+    left: 22%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(36, 161, 120);
+    position: absolute;
+}
+#circle2{
+    bottom: -4%;
+    right: 17%;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgb(36, 161, 120);
+}
+img{
+    opacity: 0.2;;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    bottom: -35%;
+}
+#number{
+    left: 8%;
+    top: 50%;
+    font-size: 28px;
+    width: 65%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+#number h2{
+    font-weight: 400;
+}
+#spend{
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+}
+#spend h3{
+    font-weight: 300;
+    font-size: 15px;
+}
+#validy{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+}
+#validy h4{
+    padding-right: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    font-size: 15px;
+}
+#validy h2{
+    font-size: 30px;
+}
+#ico{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    font-size:70px;
+}
+#chip{
+    position: absolute;
+    right: 8%;
+    top: 10%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+i{color: rgb(149, 255, 220);}
